@@ -14,6 +14,7 @@ If you click on contact button on card in find your programmer section then you 
 ```bash
 composer require trycourier/courier guzzlehttp/guzzle
 ```
+- Change paths of include files such as userinfo.txt other html, css files according to your environment.
   
 ## Contributing
 
