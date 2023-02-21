@@ -9,6 +9,12 @@ If you click on contact button on card in find your programmer section then you 
   - PHP > 7.0 
   - Courier (https://app.courier.com/)
   
+## Installation
+- Courier 
+```bash
+composer require trycourier/courier guzzlehttp/guzzle
+```
+  
 ## Contributing
 
 We welcome contributions from the community! If you find a bug or have a suggestion for a new feature, please open an [issue](/issues). If you would like to contribute code, please submit a [pull request](/pulls).
