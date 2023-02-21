@@ -18,7 +18,7 @@ composer require trycourier/courier guzzlehttp/guzzle
   
 ## Contributing
 
-We welcome contributions from the community! If you find a bug or have a suggestion for a new feature, please open an [issue](/issues). If you would like to contribute code, please submit a [pull request](/pulls).
+We welcome contributions from the community! If you find a bug or have a suggestion for a new feature, please open an [issue]. If you would like to contribute code, please submit a [pull request].
 
 ## License
 
