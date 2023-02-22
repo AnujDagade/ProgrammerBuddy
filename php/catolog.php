@@ -14,7 +14,7 @@ while(!feof($file_lines)){
 
 
 $total_pages = ($wholeLines-2)/12;
-//echo "TotalPages: $total_pages , Lines: $wholeLines";
+
 
 if (!isset($_COOKIE['PageNo'])) {
     static $pageNo = 1;
@@ -47,7 +47,7 @@ echo ('<div class="container">
 $file = fopen("/workspace/CourierHack/src/database/userinfo.txt", 'r');
 if (!$file) die("File not found");
 
-$name = array("Anuj Mahadev Dagade", "Bruce wayne");
+
 $lineNo = 0;
 
 for ($i = 0; $i < 12; $i++) {
