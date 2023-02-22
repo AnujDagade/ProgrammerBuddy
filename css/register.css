@@ -21,8 +21,6 @@ input{
     display: block;
     margin-bottom: 12px;
     
-    /* background-color: rgb(220, 223, 228); */
-    
 }
 
 textarea{
@@ -50,11 +48,6 @@ label{
 }
 
 
-/* Debugging */
-
- /* .form-container,.flex-container,.container{
-    border: solid;
-} */
 
 .form-container{
     
