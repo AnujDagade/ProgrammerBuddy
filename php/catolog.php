@@ -88,7 +88,7 @@ function genrateCard($string_array)
             <img class='profile' src='user.png' alt='Profile'>
             <span>Name:$string_array[0] </span>
             <span>Location:$string_array[2] </span>
-            <span>Technologies:$string_array[4]</span>
+            <span>Technologies I know:$string_array[4]</span>
             <span>Looking for:$string_array[3] </span>
             <input type='text' name='id' value=$string_array[1] hidden>
             <input class='btn' type='submit' value='Contact'/>
