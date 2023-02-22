@@ -14,8 +14,6 @@ $lookingFor = $_POST['look'];
 $tech = $_POST['tech'];
 
 
-//echo "$name<br> $location<br> $lookingFor<br> $tech";
-
 if(fputs($fh,$name.",".$email.",".$location.",".$lookingFor.",".$tech."\n"))
 {
    fclose($fh);
