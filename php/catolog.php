@@ -92,12 +92,12 @@ function genrateCard($string_array)
             <span>Looking for:$string_array[3] </span>
             <input type='text' name='id' value=$string_array[1] hidden>
             <input class='btn' type='submit' value='Contact'/>
-            </div>
+            
 
-        </form>");
+        </form> </div>");
 }
 ?>
-
+    </div>
 
 <div class="nav-index">
     
