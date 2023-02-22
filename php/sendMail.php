@@ -6,8 +6,6 @@ $email_id = $_POST['id'];
 $body = $_POST['msg'];
 $sender_email = $_POST['email'];
 
-// Dependencies to install:
-// $ composer require guzzlehttp/guzzle
 
 
 require_once('/workspace/CourierHack/vendor/autoload.php');
