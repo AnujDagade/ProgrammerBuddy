@@ -3,7 +3,7 @@
 
 <?php
 
-$file_lines = fopen("/database/userinfo.txt", 'r');
+$file_lines = fopen("../database/userinfo.txt", 'r');
 if (!$file_lines) die("File not found");
 $wholeLines=0;
 
@@ -36,7 +36,7 @@ if(($pageNo-1) > $total_pages)
 ?>
 
 <?php
-require_once("/html/template.html");
+require_once("../html/template.html");
 
 echo ('<div class="container">
         <div class="flex-container">');
@@ -44,7 +44,7 @@ echo ('<div class="container">
 <?php
 
 
-$file = fopen("/database/userinfo.txt", 'r');
+$file = fopen("../database/userinfo.txt", 'r');
 if (!$file) die("File not found");
 
 
