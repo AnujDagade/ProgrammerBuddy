@@ -1,5 +1,3 @@
 
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-last,dagadeanuj@gmail.com,Belsar,Web Dev,Javm
-Anuj,dagadeanuj@gmail.com,Pune,Web Dev,PHP React
+Anuj,a@gmail.com,Pune,Web Dev,PHP React
+DRCOOL,a@gmail.com,Gotham,Java programmer,Java

@@ -1,0 +1,47 @@
+html,body{
+    height: 100%;
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.form-outside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-container{
+    width: 30%;
+    height:80%;
+}
+
+form input{
+    width: 330px;
+    margin-bottom: 20px;
+}
+
+
+form .btn{
+    margin-top: 20px;
+    background-color: #3f46ad;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    height: 30px;
+
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title h3{
+    font-size:30px;
+}

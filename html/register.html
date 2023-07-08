@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/register.css">
     <link rel="stylesheet" href="/css/nav.css">
-    
+
     <title>Register</title>
 </head>
 
 <body>
     <header>
         <div class="brand">
-
+            <img src="/img/ProgrammerBuddy.png" alt="" onclick="location.href='/html/index.html'">
         </div>
         <nav>
             <ul>
@@ -29,13 +29,14 @@
             <button onclick="location.href='/html/register.html';">Register</button>
         </div>
     </header>
-   
+
     <div class="container">
 
         <div class="title">
-            <h3>Register to find your programming partner</h3>
+            <h3>Register to find your Programming Buddy</h3>
         </div>
-        <div class="flex-container">
+       
+        <div class="form-outside">
 
 
             <div class="form-container">
@@ -44,16 +45,17 @@
                     <input type="text" name="name" id="uname" required>
 
                     <label for="uemail">Email:</label>
-                    <input type="email" name="email" id="uemail" required>
+                    <input type="email" name="email" id="uemail" required> 
 
                     <label for="uloc">Location:</label>
-                    <input type="text" name="loc" id="uloc" required>
+                    <input type="text" name="loc" id="uloc" required> 
+
 
                     <label for="uloc">Looking for: </label>
-                    <input type="text" name="look" id="ulook" required>
+                    <input type="text" name="look" id="ulook" required> 
 
                     <label for="utech">Technologies</label>
-                    <input type="text" name="tech" id="utech" required>
+                    <input type="text" name="tech" id="utech" required> 
 
                     <input class="btn" type="submit" value="Submit">
                 </form>
